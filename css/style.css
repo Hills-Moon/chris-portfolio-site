@@ -112,6 +112,12 @@ body {
   background-color: transparent;
 }
 
+/* filepath: /c:/Users/marde/OneDrive/Desktop/new_chris_portfolio/css/style.css */
+.email-link {
+  color: #3b2d41;
+  text-decoration: underline;
+}
+
 /* Projects Section Styling */
 #projects {
   background-color: #f4ebe4;  /* Match the background color */
