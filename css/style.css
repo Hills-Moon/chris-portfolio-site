@@ -1,0 +1,159 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #3b2d41;  /* Dark purple background */
+  position: fixed;  /* Freeze navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Full width */
+  z-index: 1030;  /* Ensure it stays above other elements */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important;  /* White text for links */
+  font-weight: bold;
+  transition: color 0.3s ease;  /* Smooth transition */
+}
+
+.navbar .nav-link:hover {
+  color: #e0d2e8 !important;  /* Light lavender hover effect */
+}
+
+body {
+  padding-top: 70px;  /* Add padding to avoid content overlapping with navbar */
+}
+
+.card {
+  height: 100%;  /* Ensure the card takes the full height of its container */
+  display: flex;
+  flex-direction: column;  /* Ensures content stacks vertically */
+  justify-content: space-between;  /* Ensures buttons stay at the bottom */
+  border: 1px solid #3b2d41;  /* Adds a 1px border with specified color */
+  border-radius: 12px;  /* Rounded corners for uniformity */
+  min-height: 420px;  /* Ensures all cards have the same height */
+}
+
+.card-img-top {
+  max-height: 180px;  /* Keeps the image size consistent */
+  object-fit: cover;  /* Ensures the image doesn’t stretch */
+  border-radius: 12px 12px 0 0;  /* Rounded corners for top of card image */
+}
+
+.card-body {
+  flex-grow: 1;  /* Fills remaining vertical space while keeping buttons at the bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  text-align: center;  /* Center-align descriptions */
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: auto;  /* Pushes buttons to the bottom of the card */
+  border-radius: 8px;  /* Slightly rounded button */
+}
+
+.profile-card {
+  background-color: #f4ebe4;
+  border-radius: 12px;  /* Rounded corners for the profile card */
+  padding: 40px;
+}
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.icon-btn {
+  color: #3b2d41;
+  background-color: transparent;
+  border: none;
+  font-size: 1.4rem;
+  height: 52px;
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon-btn:hover {
+  color: #90749c;
+}
+
+.resume-btn {
+  color: #3b2d41;
+  background-color: transparent;
+  border: 1px solid #3b2d41;  /* 1px outline */
+  padding: 0.3rem 1rem;
+  border-radius: 5px;  /* Slight rounded corners */
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resume-btn:hover {
+  color: #90749c;
+  background-color: transparent;
+}
+
+/* Projects Section Styling */
+#projects {
+  background-color: #f4ebe4;  /* Match the background color */
+  border-radius: 12px;  /* Add rounded corners to match profile card */
+  padding: 10px;
+}
+
+.separator {
+  padding: 0 10px;
+  color: black;
+  line-height: 52px;
+  font-size: 1.4rem;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+}
+
+/* Change primary button colors */
+.btn-primary {
+  background-color: #3b2d41;  /* New color */
+  border-color: #3b2d41;
+}
+
+.btn-primary:hover {
+  background-color: #90749c;  /* Darker shade on hover */
+}
+
+.line-separator {
+  border-top: 1px solid #2b2825;  /* 1px light gray line */
+  margin: 40px 0;  /* Top and bottom margin */
+  width: 100%;
+  opacity: 0.50;  /* Slightly transparent */
+}
+
+/* Ensure card content aligns properly */
+.card-body .btn-primary {
+  margin-top: auto;
+}
+
+  
+  
+  
+  
+  
