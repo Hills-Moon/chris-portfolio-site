@@ -29,3 +29,5 @@ If you'd like to view the website locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Hills-Moon/chris-portfolio-site.git
+
+**Note:** Forking or modifying this repository is discouraged unless you are using the code as a reference/template for personal use. Please do not publish copies of this repository or use any personal content (photos, descriptions, or branding) without permission.
